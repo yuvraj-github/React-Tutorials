@@ -3,6 +3,8 @@ import './App.css';
 import UserFunctionalComponent from './Functional Component/UserFunctionalComponent';
 import UserClassComponent from './Class Component/UserClassComponent';
 import React from 'react';
+import StateWithFunction from './Functional Component/StateWithFunction';
+import StateWithClass from './Class Component/StateWithClass';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <UserClassComponent />
       {/* <User /> */}
       <UserClass />
+      <StateWithFunction />
+      <StateWithClass />
     </div>
   );
 }
