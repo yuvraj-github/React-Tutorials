@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
-import PropsToStudentClass from './Class Component/PropsToStudentClass';
+import InputComponent from './Functional Component/InputComponent';
+//import PropsToStudentClass from './Class Component/PropsToStudentClass';
 //import PropsToStudent from './Functional Component/PropsToStudent';
 // import UserFunctionalComponent from './Functional Component/UserFunctionalComponent';
 // import UserClassComponent from './Class Component/UserClassComponent';
@@ -19,8 +20,9 @@ function App() {
       <StateWithClass /> */}
       {/* <PropsToStudent name={name} email={'ajay@gmail.com'} other={{ address: 'delhi', mobile: '8444' }} />
       <button onClick={() => setName('Anil')}>Update Name</button> */}
-      <PropsToStudentClass name={name} email={'anil@gmail.com'}/>
-      <button onClick={() => setName('Anil')}>Update Name</button>
+      {/* <PropsToStudentClass name={name} email={'anil@gmail.com'}/>
+      <button onClick={() => setName('Anil')}>Update Name</button> */}
+      <InputComponent />
     </div>
   );
 }
