@@ -12,8 +12,8 @@ class StateWithClass extends Component {
             <div>
                 <h3>State with Class Component</h3>
                 <h5>Counter: {this.state.count}</h5>
-                <button onClick={() => this.setState({count: this.state.count+1})}>Update Count</button>
-            </div>           
+                <button onClick={() => this.setState({ count: this.state.count + 1 })}>Update Count</button>
+            </div>
 
         )
     }
