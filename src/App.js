@@ -1,6 +1,8 @@
 import './App.css';
 import React, { useState } from 'react';
-import InputComponent from './Functional Component/InputComponent';
+import ConditionalRendering from './Functional Component/ConditionalRendering';
+//import FormComponent from './Functional Component/FormComponent';
+//import InputComponent from './Functional Component/InputComponent';
 //import PropsToStudentClass from './Class Component/PropsToStudentClass';
 //import PropsToStudent from './Functional Component/PropsToStudent';
 // import UserFunctionalComponent from './Functional Component/UserFunctionalComponent';
@@ -22,7 +24,9 @@ function App() {
       <button onClick={() => setName('Anil')}>Update Name</button> */}
       {/* <PropsToStudentClass name={name} email={'anil@gmail.com'}/>
       <button onClick={() => setName('Anil')}>Update Name</button> */}
-      <InputComponent />
+      {/* <InputComponent /> */}
+      {/* <FormComponent /> */}
+      <ConditionalRendering />
     </div>
   );
 }
