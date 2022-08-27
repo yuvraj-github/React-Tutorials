@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
-import ConditionalRendering from './Functional Component/ConditionalRendering';
+import PropsAsFunction from './Functional Component/PropsAsFunciton';
+//import ConditionalRendering from './Functional Component/ConditionalRendering';
 //import FormComponent from './Functional Component/FormComponent';
 //import InputComponent from './Functional Component/InputComponent';
 //import PropsToStudentClass from './Class Component/PropsToStudentClass';
@@ -12,6 +13,9 @@ import ConditionalRendering from './Functional Component/ConditionalRendering';
 
 function App() {
   const [name, setName] = useState('Ajay');
+  function getData() {
+    alert('Hello world');
+  }
   return (
     <div className="App">
       {/* <UserFunctionalComponent />
@@ -26,7 +30,8 @@ function App() {
       <button onClick={() => setName('Anil')}>Update Name</button> */}
       {/* <InputComponent /> */}
       {/* <FormComponent /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <PropsAsFunction data={getData}/>
     </div>
   );
 }
