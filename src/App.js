@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
-import PropsAsFunction from './Functional Component/PropsAsFunciton';
+import ComponentDidMount from './Class Component/ComponentDidMount';
+//import PropsAsFunction from './Functional Component/PropsAsFunciton';
 //import ConditionalRendering from './Functional Component/ConditionalRendering';
 //import FormComponent from './Functional Component/FormComponent';
 //import InputComponent from './Functional Component/InputComponent';
@@ -13,9 +14,10 @@ import PropsAsFunction from './Functional Component/PropsAsFunciton';
 
 function App() {
   const [name, setName] = useState('Ajay');
+  /*
   function getData() {
     alert('Hello world');
-  }
+  } */
   return (
     <div className="App">
       {/* <UserFunctionalComponent />
@@ -31,7 +33,8 @@ function App() {
       {/* <InputComponent /> */}
       {/* <FormComponent /> */}
       {/* <ConditionalRendering /> */}
-      <PropsAsFunction data={getData}/>
+      {/* <PropsAsFunction data={getData}/> */}
+      <ComponentDidMount />
     </div>
   );
 }
