@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
-import ShoudComponentUpdate from './Class Component/ShouldComponentUpdate';
+import ComponentWillUnmount from './Class Component/ComponentWillUnmount';
+//import ShoudComponentUpdate from './Class Component/ShouldComponentUpdate';
 //import ComponentDidUpdate from './Class Component/ComponentDidUpdate';
 //import ComponentDidMount from './Class Component/ComponentDidMount';
 //import PropsAsFunction from './Functional Component/PropsAsFunciton';
@@ -38,7 +39,8 @@ function App() {
       {/* <PropsAsFunction data={getData}/> */}
       {/* <ComponentDidMount /> */}
       {/* <ComponentDidUpdate /> */}
-      <ShoudComponentUpdate />
+      {/* <ShoudComponentUpdate /> */}
+      <ComponentWillUnmount />
     </div>
   );
 }
