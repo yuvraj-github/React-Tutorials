@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
-import ComponentDidMount from './Class Component/ComponentDidMount';
+import ComponentDidUpdate from './Class Component/ComponentDidUpdate';
+//import ComponentDidMount from './Class Component/ComponentDidMount';
 //import PropsAsFunction from './Functional Component/PropsAsFunciton';
 //import ConditionalRendering from './Functional Component/ConditionalRendering';
 //import FormComponent from './Functional Component/FormComponent';
@@ -34,7 +35,8 @@ function App() {
       {/* <FormComponent /> */}
       {/* <ConditionalRendering /> */}
       {/* <PropsAsFunction data={getData}/> */}
-      <ComponentDidMount />
+      {/* <ComponentDidMount /> */}
+      <ComponentDidUpdate />
     </div>
   );
 }
