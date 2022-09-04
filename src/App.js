@@ -1,6 +1,10 @@
 import './App.css';
 import React, { useState } from 'react';
-import UseMapFuncionComponent from './Functional Component/UseMapFuncionComponent';
+import UseCallbackComponent from './Functional Component/UseCallbackComponent';
+//import UseMemoComponent from './Functional Component/UseMemoComponent';
+//import UsePureComponent from './Class Component/UsePureComponent';
+//import ReuseComponent from './Functional Component/ReuseComponent';
+//import UseMapFuncionComponent from './Functional Component/UseMapFuncionComponent';
 //import UseEffectComponent from './Functional Component/UseEffectComponent';
 //import ComponentWillUnmount from './Class Component/ComponentWillUnmount';
 //import ShoudComponentUpdate from './Class Component/ShouldComponentUpdate';
@@ -44,7 +48,11 @@ function App() {
       {/* <ShoudComponentUpdate /> */}
       {/* <ComponentWillUnmount /> */}
       {/* <UseEffectComponent /> */}
-      <UseMapFuncionComponent />
+      {/* <UseMapFuncionComponent /> */}
+      {/* <ReuseComponent /> */}
+      {/* <UsePureComponent /> */}
+      {/* <UseMemoComponent /> */}
+      <UseCallbackComponent />
     </div>
   );
 }
