@@ -1,6 +1,8 @@
 import './App.css';
 import React, { useState } from 'react';
-import ComponentWillUnmount from './Class Component/ComponentWillUnmount';
+import UseMapFuncionComponent from './Functional Component/UseMapFuncionComponent';
+//import UseEffectComponent from './Functional Component/UseEffectComponent';
+//import ComponentWillUnmount from './Class Component/ComponentWillUnmount';
 //import ShoudComponentUpdate from './Class Component/ShouldComponentUpdate';
 //import ComponentDidUpdate from './Class Component/ComponentDidUpdate';
 //import ComponentDidMount from './Class Component/ComponentDidMount';
@@ -40,7 +42,9 @@ function App() {
       {/* <ComponentDidMount /> */}
       {/* <ComponentDidUpdate /> */}
       {/* <ShoudComponentUpdate /> */}
-      <ComponentWillUnmount />
+      {/* <ComponentWillUnmount /> */}
+      {/* <UseEffectComponent /> */}
+      <UseMapFuncionComponent />
     </div>
   );
 }
